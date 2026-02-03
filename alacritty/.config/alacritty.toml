@@ -1,0 +1,61 @@
+
+
+# ==========================================
+#     Alacritty - DedSec Nord Green (Fixed)
+# ==========================================
+
+[window]
+opacity = 0.55
+padding = { x = 0, y = 0 }
+
+[font]
+size = 14
+
+
+# Fix weird spacing between characters
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+
+# ------------------------------------------
+#               COLORS
+# ------------------------------------------
+
+[colors.primary]
+background = "#0A0A0A"
+foreground = "#ECEFF4"   # neutral foreground → nano syntax works
+
+[colors.cursor]
+text = "#0A0A0A"
+cursor = "#A3BE8C"       # Nord soft green accent
+
+[colors.normal]
+black   = "#2E3440"
+red     = "#BF616A"
+green   = "#A3BE8C"
+yellow  = "#EBCB8B"
+blue    = "#81A1C1"
+magenta = "#B48EAD"
+cyan    = "#88C0D0"
+white   = "#D8DEE9"
+
+[colors.bright]
+black   = "#4C566A"
+red     = "#D06F79"
+green   = "#B4C9A8"
+yellow  = "#F0D399"
+blue    = "#8CAFD0"
+magenta = "#C39AC5"
+cyan    = "#93D3E1"
+white   = "#ECEFF4"
+
+[colors.selection]
+text       = "CellForeground"
+background = "#2D3A2E"

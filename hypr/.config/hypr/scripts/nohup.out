@@ -1,0 +1,6 @@
+client removed during hook handling
+● Video  --vid=1  (gif 480x270 25 fps)
+MESA-INTEL: warning: ../mesa-25.2.7/src/intel/vulkan/anv_formats.c:981: FINISHME: support more multi-planar formats with DRM modifiers
+VO: [gpu] 480x270 bgra
+V: 00:00:00 / 00:00:02 (0%) x0.50
+Exiting... (Quit)
