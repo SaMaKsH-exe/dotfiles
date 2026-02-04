@@ -3,4 +3,4 @@
 
 ----
 
-<img height="300" alt="Arch Hyprland Setup" src="https://github.com/user-attachments/assets/7c26f37c-9de7-4174-8be9-243d631d3f11" />
+<img alt="Arch Hyprland Setup" src="https://github.com/user-attachments/assets/7c26f37c-9de7-4174-8be9-243d631d3f11" />
