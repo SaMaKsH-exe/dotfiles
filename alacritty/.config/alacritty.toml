@@ -1,61 +1,62 @@
-
-
-# ==========================================
-#     Alacritty - DedSec Nord Green (Fixed)
-# ==========================================
-
 [window]
-opacity = 0.55
-padding = { x = 0, y = 0 }
+# Higher opacity (0.8) ensures readability on white backgrounds
+opacity = 0.60
+blur = true
+padding = { x = 12, y = 12 }
+
 
 [font]
-size = 14
-
-
-# Fix weird spacing between characters
-[font.offset]
-x = 0
-y = 0
-
-[font.glyph_offset]
-x = 0
-y = 0
+size = 16
 
 [cursor]
 style = { shape = "Block", blinking = "Off" }
 
+
+
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Medium"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
 # ------------------------------------------
-#               COLORS
+#       MATTE MANGA (CUSTOM PALETTE)
 # ------------------------------------------
 
 [colors.primary]
-background = "#0A0A0A"
-foreground = "#ECEFF4"   # neutral foreground → nano syntax works
+background = "#121212" # Your Matte Black
+foreground = "#bebebe" # Your Matte Grey
 
 [colors.cursor]
-text = "#0A0A0A"
-cursor = "#A3BE8C"       # Nord soft green accent
-
-[colors.normal]
-black   = "#2E3440"
-red     = "#BF616A"
-green   = "#A3BE8C"
-yellow  = "#EBCB8B"
-blue    = "#81A1C1"
-magenta = "#B48EAD"
-cyan    = "#88C0D0"
-white   = "#D8DEE9"
-
-[colors.bright]
-black   = "#4C566A"
-red     = "#D06F79"
-green   = "#B4C9A8"
-yellow  = "#F0D399"
-blue    = "#8CAFD0"
-magenta = "#C39AC5"
-cyan    = "#93D3E1"
-white   = "#ECEFF4"
+text = "#121212"
+cursor = "#eaeaea"
 
 [colors.selection]
-text       = "CellForeground"
-background = "#2D3A2E"
+text = "#bebebe"
+background = "#333333"
+
+[colors.normal]
+black   = "#333333"
+red     = "#D35F5F" # Muted Red
+green   = "#FFC107" # Amber/Gold
+yellow  = "#b91c1c" # Blood Red
+blue    = "#e68e0d" # Your Accent Orange
+magenta = "#D35F5F"
+cyan    = "#bebebe"
+white   = "#bebebe"
+
+[colors.bright]
+black   = "#8a8a8d"
+red     = "#B91C1C"
+green   = "#FFC107"
+yellow  = "#b90a0a"
+blue    = "#f59e0b"
+magenta = "#B91C1C"
+cyan    = "#eaeaea"
+white   = "#ffffff"
