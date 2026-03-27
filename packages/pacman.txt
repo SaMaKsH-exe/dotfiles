@@ -2,6 +2,8 @@
 alacritty
 alsa-utils
 awww
+base
+base-devel
 blueman
 bluez
 bluez-utils
@@ -31,7 +33,6 @@ grub
 gst-plugin-pipewire
 helvum
 htop
-hyprcursor
 hypridle
 hyprland
 hyprlock
@@ -57,7 +58,6 @@ lxappearance
 mako
 matugen
 mpv
-mpvpaper
 mullvad-vpn
 nano
 nautilus
@@ -74,7 +74,6 @@ pavucontrol
 pcmanfm
 pipewire
 pipewire-alsa
-pipewire-audio
 pipewire-jack
 pipewire-pulse
 polkit-gnome
@@ -91,25 +90,21 @@ rofi
 rsync
 rustup
 sddm
-seatd
 slurp
 smartmontools
 sof-firmware
 stow
 sway
 swayidle
-swaync
 tlp
 tmux
 tree
 ttf-bitstream-vera
-ttf-cascadia-code-nerd
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 ttf-liberation
 ttf-nerd-fonts-symbols-mono
 ttf-noto-nerd
-papirus-icon-theme
 unrar
 unzip
 uwsm
@@ -125,8 +120,6 @@ wget
 wireless_tools
 wireplumber
 wofi
-nwg-look
-xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-utils
