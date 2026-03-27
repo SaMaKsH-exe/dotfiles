@@ -1,0 +1,14 @@
+apple-fonts
+balena-etcher
+cursor-bin
+glib
+glib-debug
+gtk
+gtk-debug
+localsend-bin
+spotify
+vscodium-bin
+vscodium-bin-debug
+yay
+yay-debug
+zen-browser-bin
